@@ -8,7 +8,10 @@ import { dark } from "@clerk/themes";
 import Header from "@/components/Header";
 import { Toaster } from "sonner";
 
-const inter = Inter({ subset: ["latin"] });
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap', 
+});
 
 export const metadata = {
   title: "MediMeet - Doctors Appointment App",
